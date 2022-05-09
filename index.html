@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <img id="logo" src="img/logo.svg" alt="Alura"></img>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <textarea class="text-input" name="input-texto" id="input-texto" rows="6" cols="35" placeholder="Digite seu texto aqui."></textarea>
+        <label><img class="exclamacion-circle" src="img/exclamation.svg" alt="atenção"></img>Apenas letras
+          minúsculas e sem acento.</label>
+        <div class="btn">
+          <input class="" type="submit" value="Criptografar" id="btn-cripto">
+          <input class="" type="submit" value="Descriptografar" id="btn-descripto">
+        </div>
+      </form>
+    </section>
+
+    <section class="msg box">
+      <textarea class="text-input" id="msg" placeholder="" readonly></textarea>
+      <div class="visivel">
+        <img id="high" src="img/man.svg" alt="produto alta qualidade"></img>
+        <h2 id="Digite">Nenhuma messagem encontrada</h2>
+        <h3 id="Digite1">Digite um texto que você deseja criptografar ou descriptografar.</h3>
+      </div>
+      <input class="invisivel" type="submit" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <footer class="attribution">
+    <div>
+      <h6>Oracle Next Education + Allura Challenge by Lucas Campos ₢ 2022</h6>
+      <a href="https://www.linkedin.com/in/lucas-campos-84pqd/"><img src="img/linkedin.svg" alt="linkedin"></a>
+      <a href="https://github.com/lucasxcampos"><img src="img/github.svg" alt="github"></a>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/crypto.js"></script>
+  <script src="js/invisible.js"></script>
+</body>
+
+</html>
